@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: 开始阅读
-      link: /zh/about
+      link: /about
     - theme: alt
       text: GitHub
       link: https://github.com/Digital2Slave/aiprism-site
@@ -45,7 +45,7 @@ features:
 
 ## 从这里开始
 
-- 👉 [关于 AiPrism](/zh/about)
+- 👉 [关于 AiPrism](/about)
 - 👉 AI 工程与模型部署（即将更新）
 - 👉 系统设计与工程实践（即将更新）
 
@@ -53,4 +53,3 @@ features:
 
 > **AiPrism**
 > 让 AI 与工程经验，折射出更清晰的技术价值。
->
