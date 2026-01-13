@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "AiPrism",
@@ -8,6 +9,8 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
 
+  outDir: '../dist',
+
   locales: {
     root: {
       label: '中文',
@@ -15,6 +18,7 @@ export default defineConfig({
       link: '/zh/',
       themeConfig: {
         nav: [
+          {text: '首页', link: '/'},
           { text: '关于', link: '/zh/about' }
         ]
       }
@@ -25,6 +29,7 @@ export default defineConfig({
       link: '/en/',
       themeConfig: {
         nav: [
+          {text: 'Home', link: '/en/'},
           { text: 'About', link: '/en/about' }
         ]
       }

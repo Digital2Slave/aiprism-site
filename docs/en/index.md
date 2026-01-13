@@ -1,23 +1,41 @@
 ---
 layout: home
+title: AiPrism
+titleTemplate: false
 
 hero:
   name: AiPrism
-  text: Dissecting AI
-  tagline: Dissecting AI from Every Angle
+  text: Dissecting AI and Engineering from Every Angle
+  tagline: From models to systems, from code to products
   actions:
     - theme: brand
       text: Get Started
-      link: /en/models/
-    - theme: alt
-      text: About
       link: /en/about
+    - theme: alt
+      text: GitHub
+      link: https://github.com/Digital2Slave/aiprism-site
 
 features:
-  - title: Model Dissection
-    details: Understand architectures, losses, and inference paths
-  - title: Engineering
-    details: Deployment, optimization, and real-world AI systems
-  - title: System Thinking
-    details: Design trade-offs beyond individual models
+  - icon: 🧠
+    title: AI Engineering
+    details: Deep learning, computer vision, and real-world model deployment.
+  - icon: ⚙️
+    title: Systems & Architecture
+    details: Backend systems, APIs, performance optimization, and scalable design.
+  - icon: 📱
+    title: Edge & Mobile AI
+    details: Android, edge inference, model optimization, and deployment pipelines.
+  - icon: ✍️
+    title: Technical Notes
+    details: Engineering insights, trade-offs, and long-term technical thinking.
 ---
+## Why AiPrism?
+
+AiPrism is not a collection of quick tutorials.
+
+It is a **long-term technical knowledge base**, built from real engineering experience — focusing on clarity, practicality, and sustainability.
+
+---
+
+> **AiPrism**
+> Practical engineering insights, through multiple perspectives.

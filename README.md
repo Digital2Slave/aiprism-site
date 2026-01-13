@@ -1,4 +1,3 @@
-
 # AiPrism
 
 Dissecting AI from Every Angle.
@@ -8,18 +7,18 @@ Built with VitePress.
 ## 1 AiPrism结构
 
 ```bash
-/
+docs/
 ├─ zh/
-│  ├─ index.md        # 中文首页
+│  ├─ index.md         # 中文首页
 │  ├─ models/          # 模型与算法
-│  ├─ engineering/   # AI 工程化（核心）
+│  ├─ engineering/     # AI 工程化（核心）
 │  ├─ systems/         # 系统与架构
-│  ├─ edge/              # 端侧 AI
-│  ├─ notes/             # 技术札记
+│  ├─ edge/            # 端侧 AI
+│  ├─ notes/           # 技术札记
 │  └─ about.md
 │
 ├─ en/
-│  ├─ index.md        # English Home
+│  ├─ index.md         # English Home
 │  ├─ models/
 │  ├─ engineering/
 │  ├─ systems/
