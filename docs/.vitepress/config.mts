@@ -9,7 +9,7 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
 
-  outDir: '../dist',
+  // outDir: '../dist',
 
   locales: {
     root: {
