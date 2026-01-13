@@ -4,6 +4,13 @@ export default defineConfig({
   title: 'AiPrism',
   description: 'Dissecting AI from Every Angle.',
 
+  head: [
+    ['link', { rel: 'icon', href: '/favicon1.png' }],
+    ['meta', { property: 'og:title', content: 'AiPrism' }],
+    ['meta', { property: 'og:description', content: 'Dissecting AI from Every Angle' }],
+    ['meta', { property: 'og:image', content: '/og.png' }]
+  ],
+
   lastUpdated: true,
   cleanUrls: true,
 
@@ -31,7 +38,10 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: '/logo.svg',
+    logo: {
+      light: '/logo1.png',
+      dark: '/logo.png'
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Digital2Slave' }

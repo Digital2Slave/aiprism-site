@@ -1,3 +1,10 @@
+<p align="center">
+  <img src="./docs/public/logo.png" width="120" />
+</p>
+
+<h2 align="center">AiPrism</h2>
+<p align="center">Dissecting AI from Every Angle</p>
+
 # AiPrism
 
 Dissecting AI from Every Angle.

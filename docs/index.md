@@ -6,7 +6,7 @@ titleTemplate: false
 hero:
   name: AiPrism
   text: 用工程视角，拆解 AI 与系统实践
-  tagline: 从模型到系统，从代码到产品
+  tagline: 从多个棱镜视角，系统拆解 AI 的模型、系统与工程
   actions:
     - theme: brand
       text: 开始阅读
