@@ -1,15 +1,22 @@
 <p align="center">
-  <img src="./docs/public/logo.png" width="120" />
+  <a href="https://aiprism-site.pages.dev/" target="_blank">
+    <img src="./docs/public/logo_back.png" width="1920" />
+  </a>
 </p>
 
-<h2 align="center">AiPrism</h2>
-<p align="center">Dissecting AI from Every Angle</p>
+<p align="center">
+  <a href="https://aiprism-site.pages.dev/" target="_blank">
+    <h2 align="center">AiPrism</h2>
+  </a>
+</p>
+
+<p align="center" style="font-size: 1.2em; font-weight: bold;">Dissecting AI from Every Angle</p>
+
 
 # AiPrism
 
-Dissecting AI from Every Angle.
 
-Built with VitePress.
+**AiPrism** built with VitePress.
 
 ## 1 AiPrism结构
 
@@ -74,5 +81,5 @@ $ npx vitepress dev docs
 
 ## 2 后续更新计划
 
-* [ ] 域名 aiprism.dev，aiprism.ai
-* [ ] slogan Dissecting AI from Every Angle
+* [X] 域名 aiprism.dev，aiprism.ai
+* [ ] 添加博客
