@@ -8,7 +8,8 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/favicon1.png' }],
     ['meta', { property: 'og:title', content: 'AiPrism' }],
     ['meta', { property: 'og:description', content: 'Dissecting AI from Every Angle' }],
-    ['meta', { property: 'og:image', content: '/og.png' }]
+    ['meta', { name: 'keywords', content: 'AI, Computer Vision, LLM, Engineering' }],
+    ['meta', { name: 'theme-color', content: '#7c6cff' }],
   ],
 
   lastUpdated: true,

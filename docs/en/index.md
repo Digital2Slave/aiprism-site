@@ -19,15 +19,19 @@ features:
   - icon: 🧠
     title: AI Engineering
     details: Deep learning, computer vision, and real-world model deployment.
+    link: /models
   - icon: ⚙️
     title: Systems & Architecture
     details: Backend systems, APIs, performance optimization, and scalable design.
+    link: /engineering
   - icon: 📱
     title: Edge & Mobile AI
     details: Android, edge inference, model optimization, and deployment pipelines.
+    link: /edge
   - icon: ✍️
     title: Technical Notes
     details: Engineering insights, trade-offs, and long-term technical thinking.
+    link: /notes
 ---
 ## Why AiPrism?
 
