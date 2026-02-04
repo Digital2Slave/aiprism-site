@@ -35,13 +35,7 @@
     29 return 0;
 
     30 }
-```
-cpp
-
-
-  
-Goal   
-
+```  
 
 目标
 
@@ -58,19 +52,9 @@ In this tutorial you will learn how to:
 
 用imshow在创建的OpenCV窗口中显示加载的图像  
 
-
-  
-
-
 Source Code
 
 源代码  
-
-
-  
-
-
-  
 
 
 Explanation
