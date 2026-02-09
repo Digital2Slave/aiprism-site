@@ -1,6 +1,6 @@
 # C++ sort函数
 
-sort函数:#include <algorithm>,默认从小到大，如果降序可写第三方函数进行排序，EXP:sort(array,array+n,cmp)
+ sort函数: `#include <algorithm>`，默认从小到大，如果降序可写第三方函数进行排序，EXP:sort(array,array+n,cmp)
 
 
 1.普通排序,升序
