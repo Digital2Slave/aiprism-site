@@ -58,8 +58,4 @@
     }
 ```
 
-
-
-  
 ![](../assets/images/1173bc9bb9cb4661.png)  
-```

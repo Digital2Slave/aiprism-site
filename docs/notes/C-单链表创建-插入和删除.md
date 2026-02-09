@@ -1,8 +1,6 @@
 # C++ 单链表创建、插入和删除
 
 
-
-
 ```cpp
     #include <iostream>
     #include <stdio.h>
@@ -197,13 +195,10 @@
 ```
 
 
-
 1.头节点插入和删除结果
 
 ![](../assets/images/a76aadf99233a53a.jpg)  
 
-
-  
 
 
 2.中间节点插入和删除结果
@@ -211,13 +206,8 @@
 ![](../assets/images/6ec4f0de902243f6.jpg)  
 
 
-  
-
 
 3.尾结点插入和删除结果
 
 ![](../assets/images/1dd08409c8a616fe.jpg)  
 
-
-  
-```

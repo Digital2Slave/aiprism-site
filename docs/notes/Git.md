@@ -9,7 +9,6 @@
     * 第二步，使用命令`git commit`，完成。
 
 
-
 ## 时光机穿梭
 
 要随时掌握工作区的状态，使用`git status`命令。   
@@ -17,22 +16,15 @@
 
 ## 版本回退
 
-
-
 ```
   * HEAD指向的版本就是当前版本，因此，Git允许我们在版本的历史之间穿梭，使用命令`git reset --hard commit_id`。
   * 穿梭前，用`git log`可以查看提交历史，以便确定要回退到哪个版本。
   * 要重返未来，用`git reflog`查看命令历史，以便确定要回到未来的哪个版本。
 ```
 
-
-
-
-
 ## [工作区和暂存区](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013745374151782eb658c5a5ca454eaa451661275886c6000)
 
 ## 管理修改
-
 
 
 ```
@@ -41,12 +33,7 @@
   * 也可以：多次修改，一次add，一次commit.
 ```
 
-
-
-
-
 ## 撤销修改
-
 
 
 ```
@@ -54,10 +41,6 @@
   * 场景2：当你不但改乱了工作区某个文件的内容，还添加到了暂存区时，想丢弃修改，分两步，第一步用命令`git reset HEAD file`，就回到了场景1，第二步按场景1操作。
   * 场景3：已经提交了不合适的修改到版本库时，想要撤销本次提交，参考版本回退一节，不过前提是没有推送到远程库。
 ```
-
-
-
-
 
 ## 删除文件
 
@@ -68,7 +51,6 @@
   * 要关联一个远程库，使用命令`git remote add origin git@server-name:path/repo-name.git`；
   * 关联后，使用命令`git push -u origin master`第一次推送master分支的所有内容；
 此后，每次本地提交后，只要有必要，就可以使用命令`git push origin master`推送最新修改；
-
 
 
 ## 从远程库克隆
@@ -89,8 +71,6 @@ Git鼓励大量使用分支：
 * 合并某分支到当前分支：`git merge <name>`
 * 删除分支：`git branch -d <name>`
 ```
-
-
 
 ## 解决冲突
 
@@ -135,7 +115,6 @@ Git分支十分强大，在团队开发中应该充分应用。
 ## 多人协作
 
 
-
 ```
   * master分支是主分支，因此要时刻与远程同步；`git push origin master`
   * dev分支是开发分支，团队所有成员都需要在上面工作，所以也需要与远程同步；`git push origin dev`
@@ -144,24 +123,21 @@ Git分支十分强大，在团队开发中应该充分应用。
 ```
 
 
-
-
-
 因此，多人协作的工作模式通常是这样：   
-1\. 首先，可以试图用`git push origin branch-name`推送自己的修改；   
-2\. 如果推送失败，则因为远程分支比你的本地更新，需要先用`git pull`试图合并；   
-3\. 如果合并有冲突，则解决冲突，并在本地提交；   
-4\. 没有冲突或者解决掉冲突后，再用`git push origin branch-name`推送就能成功！   
-5\. 如果`git pull`提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream branch-name origin/branch-name`   
+1. 首先，可以试图用`git push origin branch-name`推送自己的修改；   
+2. 如果推送失败，则因为远程分支比你的本地更新，需要先用`git pull`试图合并；   
+3. 如果合并有冲突，则解决冲突，并在本地提交；   
+4. 没有冲突或者解决掉冲突后，再用`git push origin branch-name`推送就能成功！   
+5. 如果`git pull`提示“no tracking information”，则说明本地分支和远程分支的链接关系没有创建，用命令`git branch --set-upstream branch-name origin/branch-name`   
 这就是多人协作的工作模式，一旦熟悉了，就非常简单。
 
 **小结**
-1\. 查看远程库信息，使用`git remote -v`；   
-2\. 本地新建的分支如果不推送到远程，对其他人就是不可见的；   
-3\. 从本地推送分支，使用`git push origin branch-name`，如果推送失败，先用`git pull`抓取远程的新提交；   
-4\. 在本地创建和远程分支对应的分支，使用`git checkout -b branch-name origin/branch-name`，本地和远程分支的名称最好一致；   
-5\. 建立本地分支和远程分支的关联，使用`git branch --set-upstream branch-name origin/branch-name`；   
-6\. 从远程抓取分支，使用`git pull`，如果有冲突，要先处理冲突。 
+1. 查看远程库信息，使用`git remote -v`；   
+2. 本地新建的分支如果不推送到远程，对其他人就是不可见的；   
+3. 从本地推送分支，使用`git push origin branch-name`，如果推送失败，先用`git pull`抓取远程的新提交；   
+4. 在本地创建和远程分支对应的分支，使用`git checkout -b branch-name origin/branch-name`，本地和远程分支的名称最好一致；   
+5. 建立本地分支和远程分支的关联，使用`git branch --set-upstream branch-name origin/branch-name`；   
+6. 从远程抓取分支，使用`git pull`，如果有冲突，要先处理冲突。 
 
 ## 标签管理
 

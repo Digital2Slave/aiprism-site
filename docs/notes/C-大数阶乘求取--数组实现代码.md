@@ -1,19 +1,13 @@
 # C++ 大数阶乘求取--数组实现代码
 
-1\. 大数阶乘理论
+1. 大数阶乘理论
 
 http://blog.csdn.net/yxnk/article/details/1665052  
 
 
-  
-
-
-2\. 大数阶乘实现
+2. 大数阶乘实现
 
 http://hi.baidu.com/urzalknsyzchrur/item/3934e84e821b7de31381da8d
-
-  
-
 
 
 ```cpp
@@ -68,10 +62,4 @@ http://hi.baidu.com/urzalknsyzchrur/item/3934e84e821b7de31381da8d
 
         return 0;
     }
-```
-
-
-
-  
-  
 ```

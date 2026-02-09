@@ -1,8 +1,6 @@
 # C++Switch语句实现输入日期计算为改年的第几天
 
 
-
-
 ```cpp
     #include<iostream>
     using namespace std;
@@ -52,10 +50,4 @@
      cout<<year<<"年"<<month<<"月"<<day<<"日"<<"是"<<year<<"年的第"<<location<<"天。"<<endl;
      return 0;
     }
-```
-
-
-
-  
-  
 ```

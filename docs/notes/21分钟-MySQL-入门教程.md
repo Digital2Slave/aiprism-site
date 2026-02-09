@@ -1,12 +1,8 @@
 # 21分钟 MySQL 入门教程
 
-##  21分钟 MySQL 入门教程
-
 ###  目录
 
 
-
-```
   * [一、MySQL的相关概念介绍](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html#c1)
   * [二、Windows下MySQL的配置](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html#c2)
     * [配置步骤](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html#d1)
@@ -33,7 +29,6 @@
   * [八、附录](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html#c8)
     * [修改 root 用户密码](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html#d21)
     * [可视化管理工具 MySQL Workbench](http://www.cnblogs.com/mr-wid/archive/2013/05/09/3068229.html#d22)
-```
 
 
 
@@ -54,9 +49,6 @@ MySQL 为关系型数据库(Relational Database Management System), 这种所谓
   * **值(value)** : 行的具体信息, 每个值必须与该列的数据类型相同;
   * **键(key)** : 表中用来识别某个特定的人\物的方法, 键的值在当前列中具有唯一性。
 ```
-
-
-
 
 
 ###  Windows下MySQL的配置
@@ -125,9 +117,6 @@ MySQL有三大类数据类型, 分别为数字、日期\时间、字符串, 这�
 ```
 
 
-
-
-
 这里不能详细对这些类型进行介绍了, 篇幅可能会很长, 详细介绍参见: [《MySQL数据类型》](http://www.cnblogs.com/zbseoag/archive/2013/03/19/2970004.html) : <http://www.cnblogs.com/zbseoag/archive/2013/03/19/2970004.html>
 
 ###  使用MySQL数据库
@@ -139,16 +128,11 @@ MySQL有三大类数据类型, 分别为数字、日期\时间、字符串, 这�
 `mysql -h 主机名 -u 用户名 -p`
 
 
-
 ```
   * **-h :** 该命令用于指定客户端所要登录的MySQL主机名, 登录当前机器该参数可以省略;
   * **-u :** 所要登录的用户名;
   * **-p :** 告诉服务器将会使用一个密码来登录, 如果所要登录的用户名密码为空, 可以忽略此选项。
 ```
-
-
-
-
 
 以登录刚刚安装在本机的MySQL数据库为例, 在命令行下输入 mysql -u root -p 按回车确认, 如果安装正确且MySQL正在运行, 会得到以下响应:
 

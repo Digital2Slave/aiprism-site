@@ -110,7 +110,3 @@
 
     password = os.environ.get('MAIL_PASSWORD')
 ```
-
-
-
-…

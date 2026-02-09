@@ -84,7 +84,6 @@ Java之父——詹姆斯·高斯林出生于加拿大，是一位计算机编�
 
 <http://baike.baidu.com/view/4814505.htm>
 
-  
 
 
 ## 4.Python语言之父
@@ -114,6 +113,7 @@ Guido van Rossum
 主要成就：发明Python 语言
 
 <http://baike.baidu.com/view/2975166.htm>
+
 
 ## 5.Linux之父
 

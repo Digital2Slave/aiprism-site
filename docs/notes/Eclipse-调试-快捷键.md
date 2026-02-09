@@ -28,7 +28,4 @@ Ctrl+Shift+B(set breakpoint) ->debug ->F5(step into) ->双击选中我想监视�
 
 或者选中一行带断点的表达式，然后inspect
 
-  
-
-
 <http://blog.csdn.net/abcjennifer/article/details/5479431>  

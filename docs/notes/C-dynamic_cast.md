@@ -1,8 +1,6 @@
 # C++dynamic_cast
 
 
-
-
 ```cpp
     #include <iostream>
     #include <string>
@@ -40,10 +38,4 @@
     }
 ```
 
-
-
-  
-
-
 ![](../assets/images/e89442967f4dfcd6.jpg)  
-```

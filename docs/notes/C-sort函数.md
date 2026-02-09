@@ -1,6 +1,6 @@
 # C++ sort函数
 
-sort函数:#include <algorithm>,默认从小到大，如果降序可写第三方函数进行排序，EXP:sort(array,array+n,cmp)   
+sort函数:#include <algorithm>,默认从小到大，如果降序可写第三方函数进行排序，EXP:sort(array,array+n,cmp)
 
 
 1.普通排序,升序
@@ -20,12 +20,9 @@ sort函数:#include <algorithm>,默认从小到大，如果降序可写第三方
     }
     OUTPUT:0 1 2 3 4 5 6 7 8 9
 ```
-cpp
-
 
   
 普通排序,降序   
-
 
 
 ```cpp
@@ -47,11 +44,8 @@ cpp
     OUTPUT:9 8 7 6 5 4 3 2 1 0
 ```
 
-
-
   
 2.结构体排序，a升,b降,c降   
-
 
 
 ```cpp
@@ -79,16 +73,6 @@ cpp
 ```
 
 
-
-  
-
-
 转载自[C/C++程序员之家](http://www.cplusplus.me/)
 
 **本文链接地址:** [sort函数](http://www.cplusplus.me/265.html)
-
-  
-
-
-  
-```

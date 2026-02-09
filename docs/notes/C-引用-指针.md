@@ -1,8 +1,6 @@
 # C++ 引用,指针
 
 
-
-
 ```cpp
     #include <iostream>
 
@@ -90,13 +88,4 @@
     }
 ```
 
-
-
-  
-
-
 ![](../assets/images/7823fef991dba1c0.jpg)  
-
-
-  
-```

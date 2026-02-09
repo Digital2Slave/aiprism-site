@@ -254,7 +254,6 @@ index_v1.json中的内容如下所示:
         }
     }
 ```
-json
 
 
 > 定义索引别名 
@@ -321,7 +320,6 @@ json
             org.xbib.tools.Runner \
             org.xbib.tools.JDBCImporter
 ```
-json
 
 
 保存并退出, index_v1.sh; 执行导入数据库脚本index_v1.sh   
@@ -352,8 +350,6 @@ json
     }'
 ```
 
-
-
 删除 index_v1 
 
 `curl -XDELETE localhost:9200/index_v1`
@@ -363,8 +359,6 @@ json
 ### 踩坑小分队
 
   * 批量更新『打开文件过多』
-
-
 
 > 管理员权限，更改open files 为65536。
 
@@ -389,11 +383,7 @@ json
     file locks                      (-x) unlimited
 ```
 
-
-
   * 批量更新 『无法分配内存』
-
-
 
 
 

@@ -1,21 +1,13 @@
 # C++指针类型
 
-
-
-
+```cpp
+void (*f)();  // 函数指针
+void *f();    // 函数返回指针
+const int *;  // 指向const的指针
+int const *;  // 指向const的指针
+int *const ;  // const指针
+const int * const ; // 指向const的const指针
 ```
-    void (*f)();  // 函数指针
-    void *f();    // 函数返回指针
-    const int *;  // 指向const的指针
-    int const *;  // 指向const的指针
-    int *const ;  // const指针
-    const int * const ; // 指向const的const指针
-```
-
-
-
-  
-
 
 float(**def)[10]; def 是一个二级指针，它指向一个一维数组的指针，数组的元素都是float
 
@@ -30,9 +22,6 @@ Long (*fun)(int); 函数指针，指向函数的指针，指针返回值是long,
 Long *fun(int); 指针函数，是一个带有整型参数，并返回一个long变量的指针的函数
 
 int (*(*F)(int,int))(int);F是一个函数的指针，指向的函数的类型是有两个int参数且返回一个函数指针的函数，返回的函数指针指向有一个int参数且返回int的函数
-
-  
-
 
 
 ```cpp
@@ -89,8 +78,4 @@ int (*(*F)(int,int))(int);F是一个函数的指针，指向的函数的类型�
     }
 ```
 
-
-
-  
 ![](../assets/images/cb8e7bc6e58f4824.jpg)  
-```

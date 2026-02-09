@@ -35,18 +35,9 @@
     }
 ```
 
-
-
-  
-
-
 Notepad++实现运行C++程序的方法，请参考一下连接：
 
 <http://blog.csdn.net/zhgnduking/article/details/8137681>  
 
 
-  
-
-
-![](../assets/images/c95e23d9bc26c9e5.jpg)  
-```
+![](../assets/images/c95e23d9bc26c9e5.jpg)

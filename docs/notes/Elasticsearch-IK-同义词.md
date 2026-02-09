@@ -15,16 +15,14 @@
 
 
 ```
-        #Example:
-        ipod, i-pod, i pod
-        foozball , foosball
-        universe , cosmos
-        西红柿, 番茄
-        马铃薯, 土豆
-        aa, bb
+  #Example:
+  ipod, i-pod, i pod
+  foozball , foosball
+  universe , cosmos
+  西红柿, 番茄
+  马铃薯, 土豆
+  aa, bb
 ```
-
-
 
 #### step 3
 
@@ -92,8 +90,6 @@
     }
     '
 ```
-json
-
 
 #### step 4
 
@@ -110,8 +106,6 @@ json
     }
     '
 ```
-
-
 
 #### step 5
 
@@ -143,7 +137,6 @@ json
        }
        '
 ```
-json
 
 
 #### step 6
@@ -184,8 +177,6 @@ json
          }
        }
 ```
-
-
 
 ### 动态更新同义词文件
 

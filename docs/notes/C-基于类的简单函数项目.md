@@ -33,15 +33,10 @@
 ```
 
 
-
-  
-  
-
-
 2.类实现源文件（.cpp）
 
 
-```
+```cpp
     #include "Sales_item.h"
 
     std::istream& Sales_item::input(std::istream& in)
@@ -87,12 +82,6 @@
         }
     }
 ```
-cpp
-
-
-  
-  
-
 
 3.主函数(main.cpp)
 
@@ -142,15 +131,7 @@ cpp
     }
 ```
 
-
-
-  
-  
-
-
 4.运行结果
-
-  
 
 
 example_1
@@ -162,7 +143,6 @@ example_2
 
 ![](../assets/images/16bd29cff3ffe596.jpg)
 
-  
 
 
 ![](../assets/images/a95cc2908600bbc6.jpg)  
